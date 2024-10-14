@@ -806,6 +806,9 @@ img {
 .portfolio__description {
   margin-bottom: var(--mb-0-75);
 }
+.portfolio__button{
+  padding:4px 9px;
+}
 .portfolio__button:hover .button__icon {
   transform: translateX(0.25rem);
 }
@@ -1043,8 +1046,16 @@ img {
 
   .home__blob {
     width: 180px;
+   
   }
 
+  .home__title, .home__subtitle,.home__description,.footer__title,.footer__links,.footer__socials{
+    text-align: center;
+  }
+  
+  .home_button,.sent_button{
+   margin-left:95px;
+   }
   .skills__icon,
   .skills__arrow {
     font-size: 1.25rem;
@@ -1072,7 +1083,15 @@ img {
   .project__img {
     width: 200px;
   }
+  .footer__subtitle{
+    margin-left:66px;
+  }
+  .footer__copy{
+  padding-bottom:15px;
+  }
+
 }
+
 
 /* For medium Devices */
 @media screen and (min-width: 568px) {
@@ -1088,7 +1107,7 @@ img {
     order: 1;
     justify-self: center;
   }
-
+ 
   .about__container,
   .skills__container,
   .project__container,
